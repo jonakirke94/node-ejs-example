@@ -1,0 +1,11 @@
+<html>      
+    <head>
+        <link href="/assets/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <% for(var i = 0; i < clients.length; i++) { %>
+            <h1>Client Id: <%= clients[i].Id %></h1>
+            <h1>Client Name: <%=  clients[i].Name %></h1>
+         <%  }%>
+    </body>
+</html>

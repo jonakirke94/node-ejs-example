@@ -1,0 +1,17 @@
+<html>      
+    <head>
+        <link href="/assets/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Create a new client</h1>
+        <form>
+            <input type="text" name="Name">
+            <button type="submit"  formmethod="post">Submit</button>
+        </form>
+
+        <% if(typeof msg !== "undefined") { %>
+        <h1><%= msg %></h1>
+        <% } %>
+
+    </body>
+</html>
